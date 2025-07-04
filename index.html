@@ -170,14 +170,14 @@
     </div>
 
     <script>
-        // ESTE É O LOCAL ONDE ESTÃO SEUS DADOS REAIS DE TREINAMENTO!
+  // ESTE É O LOCAL ONDE ESTÃO SEUS DADOS REAIS DE TREINAMENTO!
         const allTrainings = [
             // NR12 Máquinas
             {
                 id: '2025-07-07-nr12-t1',
                 date: '2025-07-07',
                 dayOfWeek: 'Segunda-feira',
-                course: 'NR12 - Máquinas',
+                course: 'NR12 Máquinas',
                 courseType: 'NR12',
                 time: '08h-12h',
                 location: 'Sala de treinamento',
@@ -185,20 +185,26 @@
                     { name: 'KAUE OLIVEIRA BRAGA', department: 'MONTAGEM MT' },
                     { name: 'GEANE MASSONY PADILHA', department: 'BOBINAGEM' },
                     { name: 'ALEXSANDER DOS SANTOS GONÇALVES', department: 'MONTAGEM MT' },
-                    { name: 'VALDINEI DE OLIVEIRA', department: 'MONTAGEM MT' },
                     { name: 'HENRIQUE GOMES DE LIMA', department: 'MONTAGEM RT' },
                     { name: 'MATEUS BERNARDES MOREIRA', department: 'MONTAGEM MT' },
                     { name: 'ELISIANE BRUDECK', department: 'BOBINAGEM' },
                     { name: 'EMILY SANTOS ANDRADE', department: 'BOBINAGEM' },
                     { name: 'NELSON VEIGA SANTANA', department: 'PINTURA' },
                     { name: 'TIAGO AMARAL DE AZEVEDO', department: 'AUTOCLAVE' },
+                    { name: 'ADRIANO GOUVEA DOS SANTOS', department: 'LABORATORIO' },
+                    { name: 'DANIEL MARTINS CAVALHEIRO', department: 'MONTAGEM MT' },
+                    { name: 'EDIMAR MARQUES', department: 'MONTAGEM MT' },
+                    { name: 'EDNA DA SILVA DE OLIVEIRA', department: 'BOBINAGEM' },
+                    { name: 'JOAO VITOR DE OLIVEIRA', department: 'MONTAGEM MT' },
+                    { name: 'KELI RIBEIRO SANTOS', department: 'BOBINAGEM' },
+                    { name: 'RAFAEL CARVALHO', department: 'MONTAGEM MT' },
                 ]
             },
             {
                 id: '2025-07-07-nr12-t2',
                 date: '2025-07-07',
                 dayOfWeek: 'Segunda-feira',
-                course: 'NR12 - Máquinas',
+                course: 'NR12 Máquinas',
                 courseType: 'NR12',
                 time: '19h-23h',
                 location: 'Sala de treinamento',
@@ -207,13 +213,20 @@
                     { name: 'ALEXSANDRA PEREIRA DOS SANTOS', department: 'BOBINAGEM' },
                     { name: 'EMANUELLE APARECIDA RODRIGUES', department: 'BOBINAGEM' },
                     { name: 'GEISSI EMANOELE CORREA DA SILVA', department: 'BOBINAGEM' },
+                    { name: 'ADRIAN ALEXANDER PEREZ', department: 'PINTURA' },
+                    { name: 'ANGELO GABRIEL CORDEIRO DE OLIVEIRA', department: 'MONTAGEM MT' },
+                    { name: 'DAIANE CRISTINA DA SILVA', department: 'BOBINAGEM' },
+                    { name: 'DESIREE ALVES NUNES CORDEIRO', department: 'MONTAGEM MT' },
+                    { name: 'JULIANA APARECIDA GUIMARAES RUSSO', department: 'BOBINAGEM' },
+                    { name: 'NICOLAS MACHADO DE OLIVEIRA', department: 'MONTAGEM MT' },
+                    { name: 'VITOR EDUARDO KOGA MACEDO', department: 'MONTAGEM MT' },
                 ]
             },
             {
                 id: '2025-07-08-nr12-t3',
                 date: '2025-07-08',
                 dayOfWeek: 'Terça-feira',
-                course: 'NR12 - Máquinas',
+                course: 'NR12 Máquinas',
                 courseType: 'NR12',
                 time: '08h-12h',
                 location: 'Sala de treinamento',
@@ -224,13 +237,18 @@
                     { name: 'DANIELA PRODOCIMO DE OLIVEIRA', department: 'MONTAGEM MT' },
                     { name: 'JOSE ARMANDO SANTANA SANTOS', department: 'MONTAGEM MT' },
                     { name: 'RENAN DA SILVA TELES', department: 'MONTAGEM RT' },
+                    { name: 'HENRIQUE GOMES DE LIMA', department: 'MONTAGEM RT' },
+                    { name: 'BRUNA ALEXANDRA ALVES SAPORETTI', department: 'BOBINAGEM' },
+                    { name: 'EMANOEL CORREIA DE JESUS', department: 'MONTAGEM MT' },
+                    { name: 'FABIANO VALENTIM DOS SANTOS', department: 'MONTAGEM MT' },
+                    { name: 'GABRIEL VINICIUS FREITAS DA SILVA', department: 'MONTAGEM MT' },
                 ]
             },
             {
                 id: '2025-07-08-nr12-t4',
                 date: '2025-07-08',
                 dayOfWeek: 'Terça-feira',
-                course: 'NR12 - Máquinas',
+                course: 'NR12 Máquinas',
                 courseType: 'NR12',
                 time: '19h-23h',
                 location: 'Sala de treinamento',
@@ -239,33 +257,45 @@
                     { name: 'ADRIEL WASHINGTON', department: 'LABORATORIO' },
                     { name: 'EVA SILVIA SZYMANSKI', department: 'BOBINAGEM' },
                     { name: 'DERIC CAMARGO DA SILVA', department: 'PINTURA' },
+                    { name: 'BASILIO CARVALHO FERNANDES', department: 'AUTOCLAVE' },
+                    { name: 'CARLOS EDUARDO DE LEMES CARVALHO', department: 'MONTAGEM MT' },
+                    { name: 'CRISTINA DA SILVA DOS SANTOS', department: 'MONTAGEM MT' },
+                    { name: 'DICKSON DE SOUZA FERREIRA', department: 'MONTAGEM MT' },
+                    { name: 'FLAVIA DO NASCIMENTO HATHY', department: 'BOBINAGEM' },
+                    { name: 'GREIKER DOMINICK', department: 'MONTAGEM MT' },
+                    { name: 'JAKELINE CASAGRANDE', department: 'MONTAGEM MT' },
+                    { name: 'JULIO BALKOTA JUNIOR', department: 'MONTAGEM MT' },
+                    { name: 'MAILON MAIAM SANTOS LEAL', department: 'MONTAGEM MT' },
+                    { name: 'MARCEL MARCONDES BRECHO', department: 'MONTAGEM MT' },
+                    { name: 'RAFAEL COSTA DA SILVA', department: 'MONTAGEM MT' },
                 ]
             },
-
             // NR 11 - Operador de Empilhadeira
             {
                 id: '2025-07-09-nr11-emp-t1',
                 date: '2025-07-09',
                 dayOfWeek: 'Quarta-feira',
-                course: 'NR11 - Operador de Empilhadeira',
+                course: 'NR 11 - Operador de Empilhadeira',
                 courseType: 'NR11',
                 time: '08h-17h',
-                location: 'Sala de treinamentos',
+                location: 'Sala Enedina',
                 participants: [
-                    { name: 'EMERSON VAZ', department: 'LABORATORIO' },
                     { name: 'VINICIUS MOTTA DE OLIVEIRA', department: 'LABORATORIO' },
                     { name: 'LUIZ GUSTAVO DA SILVA', department: 'LABORATORIO' },
                     { name: 'RENAN DA SILVA TELES', department: 'MONTAGEM RT' },
+                    { name: 'TIAGO AMARAL DE AZEVEDO', department: 'AUTOCLAVE' },
+                    { name: 'HENRIQUE GOMES DE LIMA', department: 'MONTAGEM RT' },
+                    { name: 'JOSIANE APARECIDA DOS SANTOS', department: 'MONTAGEM MT' },
                 ]
             },
             {
                 id: '2025-07-09-nr11-emp-t2',
                 date: '2025-07-09',
                 dayOfWeek: 'Quarta-feira',
-                course: 'NR11 - Operador de Empilhadeira',
+                course: 'NR 11 - Operador de Empilhadeira',
                 courseType: 'NR11',
                 time: '18h-03h',
-                location: 'Sala de treinamentos',
+                location: 'Sala de treinamento',
                 participants: [
                     { name: 'VINICIUS FELIPE DE FRANÇA CORREA', department: 'MANUTENCAO' },
                     { name: 'JEFERSON TIMOTIO DA SILVA', department: 'MONTAGEM RT' },
@@ -277,7 +307,7 @@
                 id: '2025-07-10-nr11-emp-t3',
                 date: '2025-07-10',
                 dayOfWeek: 'Quinta-feira',
-                course: 'NR11 - Operador de Empilhadeira',
+                course: 'NR 11 - Operador de Empilhadeira',
                 courseType: 'NR11',
                 time: '08h-17h',
                 location: 'Sala de treinamentos',
@@ -285,56 +315,77 @@
                     { name: 'FRANCINETE PEREIRA DE SOUSA', department: 'LABORATORIO' },
                     { name: 'GABRIEL MOCELIN REPINOSKI', department: 'MONTAGEM GENT/BT' },
                     { name: 'HENRIQUE GOMES DE LIMA', department: 'MONTAGEM RT' },
-                    { name: 'TIAGO AMARAL DE AZEVEDO', department: 'AUTOCLAVE' },
+                    { name: 'ADRIANO GOUVEA DOS SANTOS', department: 'LABORATORIO' },
+                    { name: 'EMANOEL CORREIA DE JESUS', department: 'MONTAGEM MT' },
                 ]
             },
-
+            {
+                id: '2025-07-10-nr11-emp-t4',
+                date: '2025-07-10',
+                dayOfWeek: 'Quinta-feira',
+                course: 'NR 11 - Operador de Empilhadeira',
+                courseType: 'NR11',
+                time: '18h-23h',
+                location: 'Sala de treinamentos',
+                participants: [
+                    { name: 'BASILIO CARVALHO FERNANDES', department: 'AUTOCLAVE' },
+                ]
+            },
             // NR 11 – Operador de Talha
             {
-                id: '2025-07-25-nr11-talha-t1',
-                date: '2025-07-25',
-                dayOfWeek: 'Sexta-feira', // Dia da semana para 25/06/2025
-                course: 'NR11 - Operador de Talha',
+                id: '2025-07-14-nr11-talha-t1',
+                date: '2025-07-14',
+                dayOfWeek: 'Segunda-feira',
+                course: 'NR 11 – Operador de Talha',
                 courseType: 'NR11',
-                time: '08h-12h',
-                location: 'Sala de treinamentos', // Assumi o local como sala de treinamentos, se for diferente me diga
+                time: '19h-23h',
+                location: 'Sala Enedina',
                 participants: [
-                    { name: 'DERMIVAL GARBELINI', department: 'AUTOCLAVE' },
-                    { name: 'RAFAEL HENRIQUE MARCIANO', department: 'MONTAGEM MT' },
-                    { name: 'VALDECIR CHAGAS CARVALHO', department: 'PINTURA' },
-                    { name: 'EMERSON LUIZ DA SILVA DE FREITAS', department: 'EXPEDICAO' },
-                    { name: 'ANDRE ALVES TAVARES', department: 'PINTURA' },
-                    { name: 'FRANCINETE PEREIRA DE SOUSA', department: 'LABORATORIO' },
-                    { name: 'VINICIUS MOTTA DE OLIVEIRA', department: 'LABORATORIO' },
-                    { name: 'RHAFAEL HENRIQUE DAVID', department: 'AUTOCLAVE' },
-                    { name: 'LUIZ GUSTAVO DA SILVA', department: 'LABORATORIO' },
+                    { name: 'BASILIO CARVALHO FERNANDES', department: 'AUTOCLAVE' },
                 ]
             },
             {
-                id: '2025-07-25-nr11-talha-t2',
-                date: '2025-07-25',
-                dayOfWeek: 'Sexta-feira', // Dia da semana para 25/07/2025
-                course: 'NR11 - Operador de Talha',
+                id: '2025-07-17-nr11-talha-t2',
+                date: '2025-07-17',
+                dayOfWeek: 'Quinta-feira',
+                course: 'NR 11 – Operador de Talha',
                 courseType: 'NR11',
                 time: '19h-23h',
-                location: 'Sala de treinamentos', // Assumi o local
+                location: 'Sala de treinamentos',
                 participants: [
                     { name: 'VINICIUS GRITER FRANCO', department: 'PINTURA' },
                     { name: 'ANDERSON LUIZ DE LIMA', department: 'AUTOCLAVE' },
                     { name: 'ADRIEL WASHINGTON', department: 'LABORATORIO' },
                     { name: 'DERIC CAMARGO DA SILVA', department: 'PINTURA' },
+                    { name: 'ADRIAN ALEXANDER PEREZ', department: 'PINTURA' },
                 ]
             },
-
+            {
+                id: '2025-07-21-nr11-talha-t3',
+                date: '2025-07-21',
+                dayOfWeek: 'Segunda-feira',
+                course: 'NR 11 – Operador de Talha',
+                courseType: 'NR11',
+                time: '08h-12h',
+                location: 'Sala de treinamentos',
+                participants: [
+                    { name: 'DERMIVAL GARBELINI', department: 'AUTOCLAVE' },
+                    { name: 'RAFAEL HENRIQUE MARCIANO', department: 'MONTAGEM MT' },
+                    { name: 'VALDECIR CHAGAS CARVALHO', department: 'PINTURA' },
+                    { name: 'ANDRE ALVES TAVARES', department: 'PINTURA' },
+                    { name: 'FRANCINETE PEREIRA DE SOUSA', department: 'LABORATORIO' },
+                    { name: 'TIAGO AMARAL DE AZEVEDO', department: 'AUTOCLAVE' },
+                ]
+            },
             // NR 11 - Operador de Ponte Rolante
             {
                 id: '2025-07-14-nr11-ponte-t1',
                 date: '2025-07-14',
-                dayOfWeek: 'Segunda-feira', // Dia da semana para 14/07/2025
-                course: 'NR11 - Operador de Ponte Rolante',
+                dayOfWeek: 'Segunda-feira',
+                course: 'NR 11 - Operador de Ponte Rolante',
                 courseType: 'NR11',
                 time: '08h-17h',
-                location: 'Sala de treinamentos', // Assumi o local
+                location: 'Sala de treinamentos',
                 participants: [
                     { name: 'JAIR JUSTINO DOS SANTOS', department: 'EXPEDICAO' },
                     { name: 'GABRIEL ROCHA', department: 'EXPEDICAO' },
@@ -347,242 +398,184 @@
             {
                 id: '2025-07-14-nr11-ponte-t2',
                 date: '2025-07-14',
-                dayOfWeek: 'Segunda-feira', // Dia da semana para 14/07/2025
-                course: 'NR11 - Operador de Ponte Rolante',
+                dayOfWeek: 'Segunda-feira',
+                course: 'NR 11 - Operador de Ponte Rolante',
                 courseType: 'NR11',
-                time: '17h-00h', // **ATENÇÃO: Hora final corrigida para '??h', por favor, ajuste**
-                location: 'Sala de treinamentos', // Assumi o local
+                time: '17h-01h', // Corrigido de 13h para 01h
+                location: 'Sala de treinamentos',
                 participants: [
                     { name: 'VINICIUS FELIPE DE FRANÇA CORREA', department: 'MANUTENCAO' },
                     { name: 'JEFERSON TIMOTIO DA SILVA', department: 'MONTAGEM RT' },
                 ]
             },
-
-// NR35 – Trabalho em Altura
-            {
-                id: '2025-07-04-nr35-t1',
-                date: '2025-07-04',
-                dayOfWeek: 'Sexta-feira',
-                course: 'NR35 - Trabalho em Altura',
-                courseType: 'NR35',
-                time: '07h-16h',
-                location: 'Sala de treinamento',
-                participants: [
-                    { name: 'EMERSON VAZ', department: 'LABORATORIO' },
-                    { name: 'LUIZ EDUARDO COSTA SILVA', department: 'MONTAGEM RT' },
-                    { name: 'LUIZ GUSTAVO DA SILVA', department: 'LABORATORIO' },
-                    { name: 'RENAN DA SILVA TELES', department: 'MONTAGEM RT' },
-                    { name: 'HENRIQUE GOMES DE LIMA', department: 'MONTAGEM RT' },
-                 
-                ]
-            },
-
             // NR 18 – PEMT
             {
-                id: '2025-07-15-nr18-pemt-t1',
+                id: '2025-07-15-nr18-t1',
                 date: '2025-07-15',
-                dayOfWeek: 'Terça-feira', // Dia da semana para 15/07/2025
-                course: 'NR18 - PEMT',
+                dayOfWeek: 'Terça-feira',
+                course: 'NR 18 – PEMT',
                 courseType: 'NR18',
                 time: '08h-17h',
-                location: 'Sala de treinamento', // Assumi o local
+                location: 'Sala de treinamento',
                 participants: [
                     { name: 'MATHEUS HENRIQUE RUSSI', department: 'MONTAGEM GENT/BT' },
                     { name: 'FRANCINETE PEREIRA DE SOUSA', department: 'LABORATORIO' },
                     { name: 'VINICIUS MOTTA DE OLIVEIRA', department: 'LABORATORIO' },
+                    { name: 'HENRIQUE GOMES DE LIMA', department: 'MONTAGEM RT' },
+                    { name: 'RENAN DA SILVA TELES', department: 'MONTAGEM RT' },
                 ]
             },
             {
-                id: '2025-07-15-nr18-pemt-t2',
+                id: '2025-07-15-nr18-t2',
                 date: '2025-07-15',
-                dayOfWeek: 'Terça-feira', // Dia da semana para 15/07/2025
-                course: 'NR18 - PEMT',
+                dayOfWeek: 'Terça-feira',
+                course: 'NR 18 – PEMT',
                 courseType: 'NR18',
                 time: '17h-23h',
-                location: 'Sala de treinamento', // Assumi o local
+                location: 'Sala de treinamento',
                 participants: [
                     { name: 'JEFERSON TIMOTIO DA SILVA', department: 'MONTAGEM RT' },
                     { name: 'ADRIEL WASHINGTON', department: 'LABORATORIO' },
                 ]
             },
             {
-                id: '2025-07-16-nr18-pemt-t3',
+                id: '2025-07-16-nr18-t3',
                 date: '2025-07-16',
-                dayOfWeek: 'Quarta-feira', // Dia da semana para 16/07/2025
-                course: 'NR18 - PEMT',
+                dayOfWeek: 'Quarta-feira',
+                course: 'NR 18 – PEMT',
                 courseType: 'NR18',
                 time: '08h-17h',
-                location: 'Sala de treinamento', // Assumi o local
+                location: 'Sala de treinamento',
                 participants: [
-                    { name: 'EMERSON VAZ', department: 'LABORATORIO' },
                     { name: 'LUIZ GUSTAVO DA SILVA', department: 'LABORATORIO' },
-                    // Um participante vazio estava aqui no seu texto, removido para clareza.
+                    { name: 'ADRIANO GOUVEA DOS SANTOS', department: 'LABORATORIO' },
                 ]
             },
-
-            // NR10 Básico (desdobrado por dia)
+            // NR 10 – Básico (Desdobrado)
             {
-                id: '2025-06-23-nr10-basico-d1',
-                date: '2025-06-23',
-                dayOfWeek: 'Segunda-feira', // Dia da semana para 23/06/2025
-                course: 'NR10 - Básico',
+                id: '2025-07-09-nr10-basico-d1',
+                date: '2025-07-09',
+                dayOfWeek: 'Quarta-feira',
+                course: 'NR 10 – Básico',
                 courseType: 'NR10',
                 time: '08h-17h',
                 location: 'Sala de treinamento',
                 participants: [
-                    { name: 'EMERSON VAZ', department: 'LABORATORIO' },
                     { name: 'LUIZ GUSTAVO DA SILVA', department: 'LABORATORIO' },
+                    { name: 'ADRIANO GOUVEA DOS SANTOS', department: 'LABORATORIO' },
+                    { name: 'ISABELE CRISTINA PANISSON CORDEIRO', department: 'MANUTENCAO' },
+                    { name: 'LUCAS MARCONDIS BARBOSA ARAO', department: 'TK' },
+                    { name: 'EMERSON LEHMANN', department: 'TK' },
+                    { name: 'RODRIGO BARBOSA DA SILVA', department: 'COMERCIAL' },
                 ]
             },
-
-             // NR10 Básico (desdobrado por dia)
             {
-                id: '2025-06-23-nr10-basico-d1',
-                date: '2025-06-23',
-                dayOfWeek: 'Segunda-feira', // Dia da semana para 24/06/2025
-                course: 'NR10 - Básico',
+                id: '2025-07-11-nr10-basico-d2',
+                date: '2025-07-11',
+                dayOfWeek: 'Sexta-feira',
+                course: 'NR 10 – Básico',
                 courseType: 'NR10',
                 time: '08h-17h',
                 location: 'Sala de treinamento',
                 participants: [
-                    { name: 'EMERSON VAZ', department: 'LABORATORIO' },
                     { name: 'LUIZ GUSTAVO DA SILVA', department: 'LABORATORIO' },
+                    { name: 'ADRIANO GOUVEA DOS SANTOS', department: 'LABORATORIO' },
+                    { name: 'ISABELE CRISTINA PANISSON CORDEIRO', department: 'MANUTENCAO' },
+                    { name: 'LUCAS MARCONDIS BARBOSA ARAO', department: 'TK' },
+                    { name: 'EMERSON LEHMANN', department: 'TK' },
+                    { name: 'RODRIGO BARBOSA DA SILVA', department: 'COMERCIAL' },
                 ]
             },
+            // NR 10 – SEP (Desdobrado)
+            
             {
-                id: '2025-06-26-nr10-basico-d2',
-                date: '2025-06-26',
-                dayOfWeek: 'Quinta-feira', // Dia da semana para 26/06/2025
-                course: 'NR10 - Básico',
-                courseType: 'NR10',
-                time: '08h-17h',
-                location: 'Sala de treinamento',
-                participants: [
-                    { name: 'EMERSON VAZ', department: 'LABORATORIO' },
-                    { name: 'LUIZ GUSTAVO DA SILVA', department: 'LABORATORIO' },
-                ]
-            },
-            {
-                id: '2025-06-27-nr10-basico-d3',
-                date: '2025-06-27',
-                dayOfWeek: 'Sexta-feira', // Dia da semana para 27/06/2025
-                course: 'NR10 - Básico',
-                courseType: 'NR10',
-                time: '08h-17h',
-                location: 'Sala de treinamento',
-                participants: [
-                    { name: 'EMERSON VAZ', department: 'LABORATORIO' },
-                    { name: 'LUIZ GUSTAVO DA SILVA', department: 'LABORATORIO' },
-                ]
-            },
-
-            // NR10 SEP (desdobrado por dia)
-            {
-                id: '2025-07-21-nr10-sep-d1',
-                date: '2025-07-21',
-                dayOfWeek: 'Segunda-feira', // Dia da semana para 21/07/2025
-                course: 'NR10 SEP',
+                id: '2025-07-23-nr10-sep-d2',
+                date: '2025-07-30',
+                dayOfWeek: 'Quarta-feira',
+                course: 'NR 10 – SEP',
                 courseType: 'NR10 SEP',
-                time: '08h-12h',
+                time: '08h-17h',
                 location: 'Sala de treinamento',
                 participants: [
                     { name: 'LUIZ FERNANDO SOARES DE SOUZA', department: 'ENGENHARIA APLICACAO' },
                     { name: 'PATRICK ROBERTO DE ALMEIDA', department: 'ENGENHARIA APLICACAO' },
-                    { name: 'EMERSON VAZ', department: 'LABORATORIO' },
                     { name: 'LUIZ GUSTAVO DA SILVA', department: 'LABORATORIO' },
                     { name: 'ADRIEL WASHINGTON', department: 'LABORATORIO' },
+                    { name: 'ADRIANO GOUVEA DOS SANTOS', department: 'LABORATORIO' },
+                    { name: 'ISABELE CRISTINA PANISSON CORDEIRO', department: 'MANUTENCAO' },
+                    { name: 'LUCAS MARCONDIS BARBOSA ARAO', department: 'TK' },
+                    { name: 'EMERSON LEHMANN', department: 'TK' },
+                    { name: 'RODRIGO BARBOSA DA SILVA', department: 'COMERCIAL' },
                 ]
             },
             {
-                id: '2025-07-22-nr10-sep-d2',
-                date: '2025-07-22',
-                dayOfWeek: 'Terça-feira', // Dia da semana para 22/07/2025
-                course: 'NR10 SEP',
+                id: '2025-07-24-nr10-sep-d3',
+                date: '2025-07-31',
+                dayOfWeek: 'Quinta-feira',
+                course: 'NR 10 – SEP',
                 courseType: 'NR10 SEP',
-                time: '08h-12h',
+                time: '08h-17h',
                 location: 'Sala de treinamento',
                 participants: [
                     { name: 'LUIZ FERNANDO SOARES DE SOUZA', department: 'ENGENHARIA APLICACAO' },
                     { name: 'PATRICK ROBERTO DE ALMEIDA', department: 'ENGENHARIA APLICACAO' },
-                    { name: 'EMERSON VAZ', department: 'LABORATORIO' },
                     { name: 'LUIZ GUSTAVO DA SILVA', department: 'LABORATORIO' },
                     { name: 'ADRIEL WASHINGTON', department: 'LABORATORIO' },
+                    { name: 'ADRIANO GOUVEA DOS SANTOS', department: 'LABORATORIO' },
+                    { name: 'ISABELE CRISTINA PANISSON CORDEIRO', department: 'MANUTENCAO' },
+                    { name: 'LUCAS MARCONDIS BARBOSA ARAO', department: 'TK' },
+                    { name: 'EMERSON LEHMANN', department: 'TK' },
+                    { name: 'RODRIGO BARBOSA DA SILVA', department: 'COMERCIAL' },
                 ]
             },
             {
-                id: '2025-07-23-nr10-sep-d3',
-                date: '2025-07-23',
-                dayOfWeek: 'Quarta-feira', // Dia da semana para 23/07/2025
-                course: 'NR10 SEP',
+                id: '2025-07-25-nr10-sep-d4',
+                date: '2025-08-01',
+                dayOfWeek: 'Sexta-feira',
+                course: 'NR 10 – SEP',
                 courseType: 'NR10 SEP',
-                time: '08h-12h',
+                time: '08h-17h',
                 location: 'Sala de treinamento',
                 participants: [
                     { name: 'LUIZ FERNANDO SOARES DE SOUZA', department: 'ENGENHARIA APLICACAO' },
                     { name: 'PATRICK ROBERTO DE ALMEIDA', department: 'ENGENHARIA APLICACAO' },
-                    { name: 'EMERSON VAZ', department: 'LABORATORIO' },
                     { name: 'LUIZ GUSTAVO DA SILVA', department: 'LABORATORIO' },
                     { name: 'ADRIEL WASHINGTON', department: 'LABORATORIO' },
+                    { name: 'ADRIANO GOUVEA DOS SANTOS', department: 'LABORATORIO' },
+                    { name: 'ISABELE CRISTINA PANISSON CORDEIRO', department: 'MANUTENCAO' },
+                    { name: 'LUCAS MARCONDIS BARBOSA ARAO', department: 'TK' },
+                    { name: 'EMERSON LEHMANN', department: 'TK' },
+                    { name: 'RODRIGO BARBOSA DA SILVA', department: 'COMERCIAL' },
                 ]
             },
-
-            // NR11 – Transpaleteira Elétrica
+            // NR 35 – Trabalho em Altura
             {
-                id: '2025-06-23-nr11-transp-t1',
-                date: '2025-06-23',
-                dayOfWeek: 'Segunda-feira', // Dia da semana para 23/06/2025
-                course: 'NR11 - Transpaleteira Elétrica',
-                courseType: 'NR11',
-                time: '08h-12h',
+                id: '2025-07-17-nr35-t1',
+                date: '2025-07-17',
+                dayOfWeek: 'Quinta-feira',
+                course: 'NR 35 – Trabalho em Altura',
+                courseType: 'NR35',
+                time: '08h-17h',
                 location: 'Sala de treinamento',
                 participants: [
-                    { name: 'EMERSON VAZ', department: 'LABORATORIO' },
-                    { name: 'MAICON JOSE INOCENCIO', department: 'MONTAGEM MT' },
-                    { name: 'GABRIEL MOCELIN REPINOSKI', department: 'MONTAGEM GENT/BT' },
-                    { name: 'RHAFAEL HENRIQUE DAVID', department: 'AUTOCLAVE' },
-                ]
-            },
-            {
-                id: '2025-06-26-nr11-transp-t2',
-                date: '2025-06-26',
-                dayOfWeek: 'Quinta-feira', // Dia da semana para 23/06/2025
-                course: 'NR11 - Transpaleteira Elétrica',
-                courseType: 'NR11',
-                time: '20h-00h',
-                location: 'Sala de treinamento',
-                participants: [
-                    { name: 'EDIMILSON EGIDIO BARBOSA', department: 'AUTOCLAVE' },
-                    { name: 'ADRIEL WASHINGTON', department: 'LABORATORIO' },
-                ]
-            },
-            {
-                id: '2025-06-24-nr11-transp-t3',
-                date: '2025-06-24',
-                dayOfWeek: 'Terça-feira', // Dia da semana para 24/06/2025
-                course: 'NR11 - Transpaleteira Elétrica',
-                courseType: 'NR11',
-                time: '08h-12h',
-                location: 'Sala de treinamento',
-                participants: [
-                    { name: 'JEFERSON SOUZA DIAS', department: 'AUTOCLAVE' },
-                    { name: 'FRANCINETE PEREIRA DE SOUSA', department: 'LABORATORIO' },
-                    { name: 'VINICIUS MOTTA DE OLIVEIRA', department: 'LABORATORIO' },
                     { name: 'LUIZ GUSTAVO DA SILVA', department: 'LABORATORIO' },
                     { name: 'TIAGO AMARAL DE AZEVEDO', department: 'AUTOCLAVE' },
+                    { name: 'PAULO HENRIQUE BRANDAO DOS SANTOS', department: 'MANUTENCAO' },
+                    { name: 'LEANDRO CESAR AYMOTO', department: 'MANUTENCAO' },
                 ]
             },
             {
-                id: '2025-06-24-nr11-transp-t4',
-                date: '2025-06-24',
-                dayOfWeek: 'Terça-feira', // Dia da semana para 24/06/2025
-                course: 'NR11 - Transpaleteira Elétrica',
-                courseType: 'NR11',
-                time: '20h-00h',
+                id: '2025-07-18-nr35-t2',
+                date: '2025-07-18',
+                dayOfWeek: 'Sexta-feira',
+                course: 'NR 35 – Trabalho em Altura',
+                courseType: 'NR35',
+                time: '19h-03h',
                 location: 'Sala de treinamento',
                 participants: [
-                    { name: 'ADILSON CORDEIRO DOS SANTOS', department: 'AUTOCLAVE' },
-                    { name: 'JEAN CARLOS RIBEIRO DE BARROS', department: 'LABORATORIO' },
-                    { name: 'ANDERSON LUIZ DE LIMA', department: 'AUTOCLAVE' },
+                    { name: 'JEFERSON TIMOTIO DA SILVA', department: 'MONTAGEM RT' },
+                    { name: 'ADRIEL WASHINGTON', department: 'LABORATORIO' },
+                    { name: 'BASILIO CARVALHO FERNANDES', department: 'AUTOCLAVE' },
                 ]
             },
         ];
@@ -600,17 +593,18 @@
 
         // Mapeamento de cores para os departamentos (todas as chaves em MAIÚSCULAS)
         const departmentColors = {
-            'LABORATÓRIO': { bg: 'bg-blue-100', text: 'text-blue-800' },
+            'LABORATORIO': { bg: 'bg-blue-100', text: 'text-blue-800' },
             'MONTAGEM RT': { bg: 'bg-indigo-100', text: 'text-indigo-800' },
             'AUTOCLAVE': { bg: 'bg-green-100', text: 'text-green-800' },
             'MONTAGEM MT': { bg: 'bg-teal-100', text: 'text-teal-800' },
             'BOBINAGEM': { bg: 'bg-purple-100', text: 'text-purple-800' },
             'PINTURA': { bg: 'bg-pink-100', text: 'text-pink-800' },
-            'MANUTENÇÃO': { bg: 'bg-orange-100', text: 'text-orange-800' },
+            'MANUTENCAO': { bg: 'bg-orange-100', text: 'text-orange-800' },
             'MONTAGEM GENT/BT': { bg: 'bg-yellow-100', text: 'text-yellow-800' },
-            'EXPEDIÇÃO': { bg: 'bg-lime-100', text: 'text-lime-800' },
-            'ENGENHARIA APLICAÇÃO': { bg: 'bg-fuchsia-100', text: 'text-fuchsia-800' },
-            // Certifique-se de que cada departamento usado em `allTrainings` tenha uma entrada aqui
+            'EXPEDICAO': { bg: 'bg-lime-100', text: 'text-lime-800' },
+            'ENGENHARIA APLICACAO': { bg: 'bg-fuchsia-100', text: 'text-fuchsia-800' },
+            'TK': { bg: 'bg-gray-100', text: 'text-gray-800' },
+            'COMERCIAL': { bg: 'bg-red-100', text: 'text-red-800' },
         };
 
         let currentMonth = '';
@@ -934,5 +928,4 @@
     </footer>
 
 </html>
-
 
